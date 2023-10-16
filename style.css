@@ -14,7 +14,7 @@ p {
 
 .cabecalho {
   background-color: rgb(231, 238, 232);
-  border-bottom: 3px solid rgb(71, 131, 89);
+  border-bottom: 5px solid #2f4225;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,4 +134,95 @@ h3 {
 
 .pontos_turisticos p {
   margin-bottom: 10px;
+}
+
+/* css da pagina recife_antigo.html */
+.cabecalho2 {
+  background-color: rgb(231, 238, 232);
+  border-bottom: 5px solid rgb(71, 131, 89);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.cabecalho2 img {
+  width: 100px;
+}
+
+.cabecalho2 h1 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnn {
+  display: block;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #9aac91;
+  color: #fff;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.btnn:hover {
+  background-color: #2f4225;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.img1 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.corpo h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.corpo h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.corpo a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.corpo a:hover {
+  background-color: #2f4225;
+}
+
+.corpo img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.corpo p {
+  display: block;
+  justify-content: center;
+  font-size: x-large;
+  padding: 40px;
+}
+
+.footer {
+  border-top: 5px solid #2f4225;
 }
